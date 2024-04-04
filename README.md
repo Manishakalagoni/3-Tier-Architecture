@@ -20,3 +20,6 @@ Implement security groups to restrict inbound and outbound traffic for each tier
 Integrate a CI/CD pipeline for automated deployments across environments.
 
 Utilize additional AWS services like CloudWatch Logs for application and infrastructure monitoring
+
+![image](https://github.com/Manishakalagoni/3-Tier-Architecture/assets/114309498/37cf5110-2e20-4d8e-ac30-126fb075760a)
+
