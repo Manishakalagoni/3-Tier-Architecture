@@ -1,6 +1,6 @@
 # 3-Tier-Architecture
-**Highly Available 3-Tier Web Application on AWS
-**
+**Highly Available 3-Tier Web Application on AWS**
+
 This architecture utilizes a three-tier model for deploying a web application across multiple environments (Dev, Perf, QA, Prod).
 
 **Presentation Tier:** An Application Load Balancer (ALB) distributes incoming traffic across EC2 instances running the web application. This tier can leverage features like SSL termination for improved security.
@@ -12,8 +12,8 @@ This architecture utilizes a three-tier model for deploying a web application ac
 **Testing and Scalability Validation**
 
 Manual stress testing was conducted by simulating high CPU load on the web application. As expected, the ALB routed traffic to additional instances within the ASG upon triggering a CloudWatch alarm based on CPU utilization. This confirms the architecture's ability to handle increased traffic and maintain application uptime.
-**
-Additional Considerations:**
+
+**Additional Considerations:**
 
 Implement security groups to restrict inbound and outbound traffic for each tier.
 
